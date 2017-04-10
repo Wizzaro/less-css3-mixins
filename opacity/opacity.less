@@ -1,0 +1,14 @@
+.opacity(@value) when ((@value * 100) > 100) {
+    @oldIEValue: @value;
+    @oValue: @value / 100;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=@{oldIEValue})";
+    filter: alpha(opacity=@oldIEValue);
+    opacity: @oValue;
+}
+
+.opacity(@value) when ((@value * 100) <= 100) {
+    @oldIEValue: @value * 100;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=@{oldIEValue})";
+    filter: alpha(opacity=@oldIEValue);
+    opacity: @value;
+}

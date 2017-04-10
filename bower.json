@@ -1,0 +1,29 @@
+{
+  "name": "wizzaro-less-css3-mixins",
+  "authors": [
+    "Przemysław Dziadek <przemyslaw.dziadek@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "keywords": [
+    "css",
+    "css3",
+    "less",
+    "mixins"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "**/*.md",
+    "**/*.json",
+    "node_modules",
+    "bower_components",
+    "",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "wizzaro-less-flexbox-mixins": "*"
+  }
+}

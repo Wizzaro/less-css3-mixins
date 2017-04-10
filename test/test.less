@@ -1,0 +1,351 @@
+@import '../css3-mixins';
+
+/*Box Sizing Test*/
+
+.box-sizing {
+    .box-sizing(border-box);
+}
+
+/*Resize Test*/
+
+.resize {
+    .resize(both);
+}
+
+/*Columns Test*/
+
+.columns {
+    .columns(100px 3);
+}
+
+.column-width {
+    .column-width(100px);
+}
+
+.column-count {
+    .column-count(3);
+}
+
+.column-gap {
+    .column-gap(30px);
+}
+
+.column-rule {
+    .column-rule(4px outset #ff00ff);
+}
+
+.column-rule-color {
+    .column-rule-color(#ff00ff);
+}
+
+.column-rule-style {
+    .column-rule-style(dotted);
+}
+
+.column-rule-width {
+    .column-rule-width(4px);
+}
+
+.column-span {
+    .column-span(1);
+}
+
+/*Object Test*/
+.object-fit {
+    .object-fit(cover);
+}
+
+.object-position {
+    .object-position(0 0);
+}
+
+/*Opacity Test*/
+
+.opacity {
+    .opacity(70);
+}
+
+.opacity {
+    .opacity(0.7);
+}
+
+/*Border Radius Test*/
+
+.border-radius {
+    .border-radius(50%)
+}
+
+.border-top-left-radius {
+    .border-top-left-radius(50%);
+}
+
+.border-top-right-radius {
+    .border-top-right-radius(50%);
+}
+
+.border-bottom-right-radius {
+    .border-bottom-right-radius(50%);
+}
+
+.border-bottom-left-radius {
+    .border-bottom-left-radius(50%);
+}
+
+/*Border Image Test*/
+
+.border-image {
+	.border-image(url(test.png) 100% 1 0 stretch);
+}
+
+.border-image-source {
+	.border-image-source(url(test.png));
+}
+
+.border-image-slice {
+	.border-image-slice(30%);
+}
+
+.border-image-width {
+	.border-image-width(100px);
+}
+
+.border-image-outset {
+	.border-image-outset(100px);
+}
+
+.border-image-repeat {
+	.border-image-repeat(stretch);
+}
+
+/*Background Size Test*/
+
+.background-size{
+    .background-size(cover);
+}
+
+/*Background Gradient Test*/
+
+.gradient {
+    .gradient(linear-gradient(left,rgba(255,0,0,0),rgba(255,0,0,0.7)));
+}
+
+/*Box Shadow Test*/
+
+.box-shadow {
+    .box-shadow(10px 10px 5px #888888);
+}
+
+/*Text Shadow Test*/
+
+.text-shadow {
+    .text-shadow(2px 2px #ff0000);
+}
+
+/* Text Align Last */
+.text-align-last {
+    .text-align-last(center);
+}
+
+/*Text Overflow Test*/
+
+.text-overflow {
+    .text-overflow(clip);
+}
+
+/*Transform Test*/
+
+.transform {
+    .transform(translate(50px, 100px));
+}
+
+.transform-origin {
+    .transform-origin(20% 40%);
+}
+
+/*Transforms 2d Test*/
+
+.transform-2d-matrix {
+	.transform-2d-matrix("1, -0.3, 0, 1, 0, 0");
+}
+
+.transform-2d-translate {
+	.transform-2d-translate("20px, 10px");
+}
+
+.transform-2d-translateX {
+	.transform-2d-translateX(20px);
+}
+
+.transform-2d-translateY {
+	.transform-2d-translateY(10px);
+}
+
+.transform-2d-scale {
+	.transform-2d-scale("20px, 10px");
+}
+
+.transform-2d-scaleX {
+	.transform-2d-scaleX(20px);
+}
+
+.transform-2d-scaleY {
+	.transform-2d-scaleY(10px);
+}
+
+.transform-2d-rotate {
+	.transform-2d-rotate(10deg);
+}
+
+.transform-2d-skew {
+	.transform-2d-skew("20deg, 10deg")
+}
+
+.transform-2d-skewX {
+	.transform-2d-skewX(20deg);
+}
+
+.transform-2d-skewY {
+	.transform-2d-skewY(10deg);
+}
+
+
+/*Transforms 3d Test*/
+
+//tranform-style
+.transform-style {
+    .transform-style(flat);
+}
+
+//perspective
+.perspective {
+    .perspective(500px)
+}
+
+
+//perspective-origin
+.perspective-origin {
+    .perspective-origin(20% 10%);
+}
+
+//backface-visibility
+.backface-visibility {
+    .backface-visibility(visible);
+}
+
+//transforms
+.transform-3d-matrix3d {
+	.transform-3d-matrix3d("1, -0.3, 0, 1, 0, 0, 1, -0.3, 0, 1, 0, 0, 2, 2")
+}
+
+.transform-3d-translate3d {
+	.transform-3d-translate3d("30px, 20px, 10px")
+}
+
+.transform-3d-translateX {
+	.transform-3d-translateX(30px);
+}
+
+.transform-3d-translateY {
+	.transform-3d-translateY(20px);
+}
+
+.transform-3d-translateZ {
+	.transform-3d-translateZ(10px);
+}
+
+.transform-3d-scale3d {
+	.transform-3d-scale3d("30px, 20px, 10px")
+}
+
+.transform-3d-scaleX {
+	.transform-3d-scaleX(30px);
+}
+
+.transform-3d-scaleY {
+	.transform-3d-scaleY(20px);
+}
+
+.transform-3d-scaleZ {
+	.transform-3d-scaleZ(10px);
+}
+
+.transform-3d-rotate3d {
+	.transform-3d-rotate3d("30deg, 20deg, 10deg");
+}
+
+.transform-3d-rotateX {
+	.transform-3d-rotateX(30deg);
+}
+
+.transform-3d-rotateY {
+	.transform-3d-rotateY(20deg);
+}
+
+.transform-3d-rotateZ {
+	.transform-3d-rotateZ(10deg);
+}
+
+.transform-3d-perspective {
+	.transform-3d-perspective(500px);
+}
+
+/*Transtion Test*/
+
+.transition {
+    .transition(width 3s linear 1s);
+}
+
+.transition-property {
+    .transition-property(width);
+}
+
+.transition-duration {
+    .transition-duration(3s);
+}
+
+.transition-timing-function {
+    .transition-timing-function(ease);
+}
+
+.transition-delay {
+    .transition-delay(1s);
+}
+
+/*Animation Test*/
+
+.animation {
+    .animation(mymove 5s linear 3s 2 normal forwards running);
+}
+
+.animation-name {
+    .animation-name(mymove);
+}
+
+.animation-duration {
+    .animation-duration(5s);
+}
+
+.animation-timing-function {
+    .animation-timing-function(ease);
+}
+
+.animation-delay {
+    .animation-delay(3s);
+}
+
+.animation-iteration-count {
+    .animation-iteration-count(2);
+}
+
+.animation-direction {
+    .animation-direction(normal);
+}
+
+.animation-fill-mode {
+    .animation-fill-mode(forwards);
+}
+
+.keyframes(mymove, {
+    from {top: 0px;}
+    to {top: 200px;}
+});
