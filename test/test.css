@@ -1,3 +1,8 @@
+/*
+ * Less Flexbox Mixins
+ *
+ * @copyright Przemysław Dziadek <przemyslaw.dziadek@gmail.com>
+ */
 .filter-none {
   -webkit-filter: none;
   -moz-filter: none;
